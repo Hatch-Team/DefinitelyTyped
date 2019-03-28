@@ -41,7 +41,8 @@ declare namespace AnalyticsNode {
       flushAt?: number,
       flushAfter?: number,
       host?: string,
-      enable?: boolean
+      enable?: boolean,
+      retryCount?: number
     });
 
     /* The identify method lets you tie a user to their actions and record
